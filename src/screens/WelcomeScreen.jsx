@@ -29,7 +29,7 @@ export default function WelcomeScreen() {
               Already have an account?
             </Text>
             <TouchableOpacity onPress={() => navigation.navigate('Login')}>
-              <Text className="font-semibold text-yellow-400">Log In</Text>
+              <Text className="font-semibold text-yellow-400 ml-5">Log In</Text>
             </TouchableOpacity>
           </View>
         </View>
